@@ -59,7 +59,35 @@
 					<target>1.6</target>
 				</configuration>
 			</plugin>
-		</plugins>
+			<plugin>
+				<groupId>com.smartbear.soapui</groupId>
+				<artifactId>soapui-maven-plugin</artifactId>
+				<version>5.0.0</version>
+				<executions>
+					<execution>
+						<id>RestAPI-positiveTestSuite</id>
+						<configuration>
+							<projectFile>soapui/REST-Project-BuscaEndereco-soapui-project.xml</projectFile>
+							<outputFolder>target/surefire-reports</outputFolder>
+							<testSuite>BuscaCEP TestSuite</testSuite>
+							<junitReport>true</junitReport>
+							<exportwAll>true</exportwAll>
+							<printReport>true</printReport>
+							<testFailIgnore>true</testFailIgnore>
+						</configuration>
+						<goals>
+							<goal>test</goal>
+						</goals>
+						<phase>test</phase>
+					</execution>
+				</executions>
+			</plugin>
+        </plugins>
 	</build>
-
+	<pluginRepositories>
+	    <pluginRepository>
+	        <id>smartbear-sweden-plugin-repository</id>
+	        <url>http://www.soapui.org/repository/maven2/</url>
+	    </pluginRepository>
+	</pluginRepositories>
 </project>

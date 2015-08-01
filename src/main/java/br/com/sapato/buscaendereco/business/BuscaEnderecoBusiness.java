@@ -4,9 +4,13 @@ import br.com.sapato.buscaendereco.dao.BuscaEnderecoDAO;
 import br.com.sapato.buscaendereco.domain.Endereco;
 
 public class BuscaEnderecoBusiness {
-
+	private BuscaEnderecoDAO dao;
+	
+	public BuscaEnderecoBusiness(BuscaEnderecoDAO dao){
+		this.dao = dao;
+	}
+	
 	public Endereco buscaEndecoPorCep(String cep) {
-		BuscaEnderecoDAO dao = new BuscaEnderecoDAO();
 		Endereco endereco = dao.buscaEndecoPorCep(cep);
 		return endereco;
 	}

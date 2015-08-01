@@ -1,0 +1,35 @@
+2015-08-01 00:21:12,283 WARN  [SoapUI] Missing folder [C:\Workspaces\Juliano\testes\busca-endereco\ext] for external libraries
+2015-08-01 00:21:12,477 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\juliano.cervelin\soapui-settings.xml]
+2015-08-01 00:21:12,952 INFO  [WsdlProject] Loaded project from [file:/C:/Workspaces/Juliano/testes/busca-endereco/soapui/REST-Project-BuscaEndereco-soapui-project.xml]
+2015-08-01 00:21:13,162 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project BuscaEndereco]
+2015-08-01 00:21:13,162 INFO  [SoapUITestCaseRunner] Running TestSuite [BuscaCEP TestSuite], runType = SEQUENTIAL
+2015-08-01 00:21:13,199 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [04112111 TestCase]
+2015-08-01 00:21:13,204 INFO  [SoapUITestCaseRunner] running step [REST Test Request]
+2015-08-01 00:21:14,192 INFO  [SchemaUtils] Added default schema from file:/C:/Users/juliano.cervelin/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2015-08-01 00:21:14,212 INFO  [SchemaUtils] Added default schema from file:/C:/Users/juliano.cervelin/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2015-08-01 00:21:14,213 INFO  [SchemaUtils] Added default schema from file:/C:/Users/juliano.cervelin/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2015-08-01 00:21:14,214 INFO  [SchemaUtils] Added default schema from file:/C:/Users/juliano.cervelin/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2015-08-01 00:21:14,214 INFO  [SchemaUtils] Added default schema from file:/C:/Users/juliano.cervelin/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2015-08-01 00:21:14,215 INFO  [SchemaUtils] Added default schema from file:/C:/Users/juliano.cervelin/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2015-08-01 00:21:14,215 INFO  [SchemaUtils] Added default schema from file:/C:/Users/juliano.cervelin/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2015-08-01 00:21:14,218 INFO  [SchemaUtils] Added default schema from file:/C:/Users/juliano.cervelin/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2015-08-01 00:21:14,219 INFO  [SchemaUtils] Added default schema from file:/C:/Users/juliano.cervelin/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2015-08-01 00:21:14,221 INFO  [SchemaUtils] Added default schema from file:/C:/Users/juliano.cervelin/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2015-08-01 00:21:14,270 INFO  [SchemaUtils] Loading schema types from [http://localhost:8080.wadl]
+2015-08-01 00:21:14,270 INFO  [SchemaUtils] Getting schema http://localhost:8080.wadl
+2015-08-01 00:21:14,403 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2015-08-01 00:21:14,405 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [04112111 TestCase], time taken: 743ms, status: FINISHED
+2015-08-01 00:21:14,406 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [14112111 TestCase]
+2015-08-01 00:21:14,406 INFO  [SoapUITestCaseRunner] running step [REST Test Request]
+2015-08-01 00:21:14,412 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2015-08-01 00:21:14,413 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [14112111 TestCase], time taken: 3ms, status: FINISHED
+2015-08-01 00:21:14,413 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [24112111 TestCase]
+2015-08-01 00:21:14,413 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2015-08-01 00:21:14,418 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2015-08-01 00:21:14,419 INFO  [SoapUITestCaseRunner] Assertion [Contains 1] has status VALID
+2015-08-01 00:21:14,419 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [24112111 TestCase], time taken: 3ms, status: FINISHED
+2015-08-01 00:21:14,419 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [11111111 TestCase]
+2015-08-01 00:21:14,419 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2015-08-01 00:21:14,425 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2015-08-01 00:21:14,425 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [11111111 TestCase], time taken: 3ms, status: FINISHED
+2015-08-01 00:21:14,425 INFO  [SoapUITestCaseRunner] TestSuite [BuscaCEP TestSuite] finished with status [FINISHED] in 1259ms

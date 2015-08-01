@@ -8,6 +8,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 import br.com.sapato.buscaendereco.business.BuscaEnderecoBusiness;
+import br.com.sapato.buscaendereco.dao.BuscaEnderecoDAO;
 import br.com.sapato.buscaendereco.domain.Endereco;
 
 @Path("/cep")
@@ -17,7 +18,7 @@ public class BuscaEnderecoService {
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response getMsg(@PathParam("param") String cep) {
 
-		BuscaEnderecoBusiness business = new BuscaEnderecoBusiness();
+		BuscaEnderecoBusiness business = new BuscaEnderecoBusiness(new BuscaEnderecoDAO());
 
 		// Busca cep. Caso nenhum seja encontrado será retornada mensagem CPF
 		// Invalido.
